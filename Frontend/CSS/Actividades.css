@@ -1,0 +1,122 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 20px;
+  color: #333;
+}
+
+/* Contenedor principal */
+.contenedor {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Formulario */
+.campo {
+  margin-bottom: 15px;
+}
+
+.campo label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.campo input,
+.campo select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.acciones-form {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 9px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#btn-cancelar {
+  background-color: #6c757d;
+}
+
+#btn-cancelar:hover {
+  background-color: #5a6268;
+}
+
+/* Alerta de error */
+.alerta {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  border: 1px solid #f5c6cb;
+}
+
+/* Oculta elementos */
+.oculto {
+  display: none;
+}
+
+/* Tabla de actividades */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f8f9fa;
+}
+
+td select {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Botón de eliminar en la tabla */
+.btn-eliminar {
+  background-color: #dc3545;
+  margin-left: 5px;
+}
+
+.btn-eliminar:hover {
+  background-color: #bd2130;
+}
+
+/* Texto cuando no hay actividades */
+.vacio {
+  text-align: center;
+  color: #777;
+}
